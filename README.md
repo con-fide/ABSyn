@@ -12,4 +12,5 @@ Additionally, you have to add the src folder to the PYTHONPATH. If you are using
 PYTHONPATH=$PYTHONPATH:/path/to/NIP/src
 
 Once this is done, test the scheme by the following code:
+
 $ python NIP.py
