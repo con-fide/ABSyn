@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c2d22ff0-b5f8-450e-a2e9-ef8c6efb2f27" name="PGM">
+        <fileTransfer rootFolder="/home/jjy/PGM" accessType="SFTP" host="10.134.8.81" port="36000" sshConfigId="4c9e6ff9-1eb8-42f2-9846-16e26b9e0ad0" sshConfig="PGM">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
