@@ -219,7 +219,7 @@ def multi_process_measure(log1, log2, engine, total, data):  # 多进程数据�
 
 
 
-def MST(data, epsilon, delta):
+def ABSyn(data, epsilon, delta):
     time_start = time.time()
     rho = cdp_rho(epsilon, delta)
     # sigma = np.sqrt(5.0 / (9.0 * rho))  # 每次添加噪音分得 9/10的隐私预算
@@ -918,7 +918,7 @@ if __name__ == '__main__':
 
     print('epsilon', args.epsilon, 'delta', args.delta)
 
-    synth, cliques = MST(data, args.epsilon, args.delta)
+    synth, cliques = ABSyn(data, args.epsilon, args.delta)
 
     time_end = time.time()
     print('totally cost', time_end - time_start)
