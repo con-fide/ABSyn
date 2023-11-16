@@ -1,6 +1,10 @@
-#ABSyn: An Accurate Differentially Private Data Synthesis Scheme with Adaptive Selection and Batch Processes
+# ABSyn: An Accurate Differentially Private Data Synthesis Scheme with Adaptive Selection and Batch Processes
+
+## Introduction
 
 ABSyn: An Accurate Differentially Private Data Synthesis Scheme with Adaptive Selection and Batch Processes. ABSynis a differentially private data synthesis scheme that takes a tabular dataset as input and outputs a synthetic dataset in the same format. 
+
+## Install ABSyn
 
 The code can be executed in Python 3.6.9.
 
